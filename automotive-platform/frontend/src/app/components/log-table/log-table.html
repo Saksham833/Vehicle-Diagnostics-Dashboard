@@ -1,0 +1,17 @@
+<div class="log-table-container">
+  <div class="table-header">
+    <div class="cell">Timestamp</div>
+    <div class="cell">Vehicle ID</div>
+    <div class="cell">Code</div>
+    <div class="cell">Message</div>
+  </div>
+
+  <cdk-virtual-scroll-viewport itemSize="48" class="scroll-viewport">
+    <div *cdkVirtualFor="let log of logs" class="table-row">
+      <div class="cell">{{ log.timestamp }}</div>
+      <div class="cell">{{ log.vehicleId }}</div>
+      <div class="cell">{{ log.code }}</div>
+      <div class="cell">{{ log.message }}</div>
+    </div>
+  </cdk-virtual-scroll-viewport>
+</div>

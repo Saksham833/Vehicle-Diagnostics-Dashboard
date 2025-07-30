@@ -1,0 +1,9 @@
+<app-search-panel (search)="onSearch($event)"></app-search-panel>
+
+<div *ngIf="logs.length > 0">
+  <app-log-table [logs]="logs" />
+</div>
+
+<div *ngIf="hasSearched && logs.length === 0" class="no-data">
+  <p>No diagnostic logs found matching your filters.</p>
+</div>
