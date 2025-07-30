@@ -126,5 +126,5 @@ When no logs match the selected filters, the UI displays the following message:
 
 ```bash
 git clone https://github.com/Saksham833/Vehicle-Diagnostics-Dashboard.git
-cd vehicle-diagnostics-dashboard
+cd automotive-platform
 ```
