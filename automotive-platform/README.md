@@ -32,6 +32,7 @@ A fullstack Angular + Node.js (Express) diagnostics dashboard to search, filter,
 
     ```bash
     cd backend
+    npm i
     npm run start:dev
     http://localhost:3000
 
